@@ -10,14 +10,44 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a {
+  color:#fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header-room a {
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: solid 1px lightblue;
+  text-decoration: none;
 }
 
 .rooms {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.room {
+
+}
+
+.room-name {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color: white;
+  text-decoration: none;
+}
 
 .chat {
   width: calc(100vw - 300px);
